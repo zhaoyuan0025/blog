@@ -1,0 +1,7 @@
+后端：
+       导入数据库，修改fastdfs，mongodb为自己的地址
+前端项目：
+	部署到nginx中，安装项目所需要的package，
+	命令：npm i
+还有js-md5的package,建议使用vscode
+	
