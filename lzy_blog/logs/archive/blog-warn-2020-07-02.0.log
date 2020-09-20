@@ -1,0 +1,4 @@
+2020-07-02 00:53:35.826 WARN  [http-nio-9000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-07-02 00:53:41.438 WARN  [http-nio-9000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-07-02 01:31:05.879 WARN  [http-nio-9000-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-07-02 01:32:06.179 WARN  [http-nio-9000-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]

@@ -1,0 +1,21 @@
+2020-08-16 12:46:21.120 WARN  [main]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh:558 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [com/lzy/blog/config/InterceptorConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'blogController' method 
+com.lzy.blog.controller.BlogController#read(String)
+to {GET /blog/get/{id}}: There is already 'blogController' bean method
+com.lzy.blog.controller.BlogController#get(String) mapped.
+2020-08-16 14:18:19.387 WARN  [http-nio-9000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 14:27:07.950 WARN  [http-nio-9000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 14:32:46.701 WARN  [http-nio-9000-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 15:02:10.504 WARN  [http-nio-9000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /comment/getByPage
+2020-08-16 15:35:10.545 WARN  [http-nio-9000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 15:35:10.540 WARN  [http-nio-9000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 15:35:11.136 WARN  [http-nio-9000-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 15:35:11.464 WARN  [http-nio-9000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 16:22:17.499 WARN  [http-nio-9000-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 16:22:17.498 WARN  [http-nio-9000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 16:29:40.533 WARN  [http-nio-9000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 16:29:46.363 WARN  [http-nio-9000-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-08-16 16:31:53.655 WARN  [http-nio-9000-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for OPTIONS /login.jsp
+2020-08-16 16:31:53.674 WARN  [http-nio-9000-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-08-16 16:31:53.826 WARN  [http-nio-9000-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-08-16 16:31:53.879 WARN  [http-nio-9000-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp
+2020-08-16 16:31:54.009 WARN  [http-nio-9000-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /login.jsp

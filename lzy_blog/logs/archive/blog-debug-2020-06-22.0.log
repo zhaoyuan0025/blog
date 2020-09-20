@@ -1,0 +1,7 @@
+2020-06-22 00:01:54.146 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-06-22 00:03:10.609 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-06-22 00:03:10.686 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-06-22 00:03:11.322 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 0
+2020-06-22 00:03:11.625 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-06-22 00:03:11.636 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=21232f297a57a5a743894a0e4a801fc3)](String), 1(Integer), null, POST(String), 1053(Long), {"code":40002,"msg":"用户名或者密码或者密码错误"}(String), 0:0:0:0:0:0:0:1(String)
+2020-06-22 00:03:11.985 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

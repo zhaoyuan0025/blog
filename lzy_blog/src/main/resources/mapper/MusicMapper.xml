@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzy.blog.mapper.MusicMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lzy.blog.pojo.Music">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="artist" property="artist"/>
+        <result column="url" property="url"/>
+        <result column="cover" property="cover"/>
+        <result column="lrc" property="lrc"/>
+        <result column="created_time" property="createdTime"/>
+        <result column="enable" property="enable"/>
+        <result column="deleted" property="deleted"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+           id,
+          name,
+          artist,
+          url,
+          cover,
+          lrc,
+          created_time,
+          enable,
+          deleted
+    </sql>
+
+    <!--添加-->
+    <insert id="save" parameterType="com.lzy.blog.pojo.Music">
+        insert into bl_music (name,artist, url,cover, lrc) values
+        (#{name},#{artist},#{url},#{cover},#{lrc})
+    </insert>
+
+    <!--更新-->
+    <update id="update" parameterType="com.lzy.blog.pojo.Music">
+        update bl_music
+        <set>
+            <if test="name !=null and name != ''">
+                name = #{name},
+            </if>
+            <if test="artist !=null and artist != ''">
+                artist = #{artist},
+            </if>
+            <if test="url !=null and url != ''">
+                url = #{url},
+            </if>
+            <if test="cover !=null and cover != ''">
+                cover = #{cover},
+            </if>
+            <if test="lrc !=null and lrc != ''">
+                lrc = #{lrc},
+            </if>
+            <if test="enable !=null">
+                enable = #{enable},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--根据id删除-->
+    <update id="deleteById">
+        update bl_music set
+        deleted  = 1
+        where id = #{id}
+    </update>
+
+    <!--通过id查询-->
+    <select id="getById" resultMap="BaseResultMap">
+        select
+            id,
+            name,
+            artist,
+            url,
+            cover,
+            lrc
+        from bl_music
+        where id = #{id}
+        and deleted = 0
+    </select>
+
+    <!--分页查询-->
+    <select id="getByPage" parameterType="com.lzy.blog.utils.PageUtils" resultMap="BaseResultMap">
+        select id, name, artist,url,cover,created_time, enable,deleted
+        from bl_music
+        where deleted = 0
+        <if test="params.name != null and params.name !=''">
+            and name like concat('%',#{params.name},'%')
+        </if>
+        <if test="params.artist != null and params.artist !=''">
+            and artist like concat('%',#{params.artist},'%')
+        </if>
+        <if test="params.enable != null and params.enable !=''">
+            and enable like #{params.enable}
+        </if>
+        <if test="sortColumn!=null and sortColumn!=''">
+            order by ${sortColumn} ${sortMethod}
+        </if>
+        limit #{index},#{pageSize}
+    </select>
+
+    <!--查询总数-->
+    <select id="getCountPage" parameterType="com.lzy.blog.utils.PageUtils"
+            resultType="java.lang.Integer">
+        select
+        count(*)
+        from bl_music
+        where deleted = 0
+            <if test="params.name != null and params.name !=''">
+                and name like concat('%',#{params.name},'%')
+            </if>
+            <if test="params.artist != null and params.artist !=''">
+                and artist like concat('%',#{params.artist},'%')
+            </if>
+            <if test="params.enable != null">
+                and enable like #{params.enable}
+            </if>
+
+    </select>
+
+    <!--前台查询-->
+    <select id="getList" resultMap="BaseResultMap">
+        select id,
+            name,
+            artist,
+            url,
+            cover,
+            lrc
+        from bl_music
+        where deleted = 0
+        and enable = 1
+    </select>
+
+
+</mapper>

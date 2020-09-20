@@ -1,0 +1,185 @@
+2020-07-02 00:52:49.598 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-07-02 00:54:04.307 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 00:54:04.375 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 00:54:04.416 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 00:54:04.597 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 00:54:04.602 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 181(Long), {"code":2000,"data":{"token":"7933145F4818150DEDC6D3C12C578219"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 00:54:04.684 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 00:54:28.406 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 00:54:28.410 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/getLoginInfo(String), [](String), 1(Integer), null, GET(String), 7(Long), {"code":2000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海","username":"刘小少"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 00:54:28.446 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 00:56:34.965 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 00:56:34.968 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 00:56:34.971 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 00:56:34.976 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 00:56:34.979 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 17(Long), {"code":2000,"data":{"token":"7933145F4818150DEDC6D3C12C578219"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 00:56:35.066 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 00:58:33.852 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-07-02 00:59:40.318 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 00:59:40.353 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 00:59:40.383 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 00:59:40.535 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 00:59:40.542 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 161(Long), {"code":2000,"data":{"token":"61762D7D9FD86197E62B37661ABD197D"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 00:59:40.606 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:07:05.742 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 01:07:05.743 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 01:07:05.746 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 01:07:05.750 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:07:05.751 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 13(Long), {"code":2000,"data":{"token":"61762D7D9FD86197E62B37661ABD197D"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:07:05.807 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:10:42.943 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-07-02 01:10:42.944 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: java(String)
+2020-07-02 01:10:42.946 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-07-02 01:10:42.950 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_blog(type_name) values( ? ) 
+2020-07-02 01:10:42.959 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:10:42.962 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'type_name' in 'class com.lzy.blog.pojo.Type'
+	at com.lzy.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:45)
+	at com.lzy.blog.controller.TypeController.save(TypeController.java:31)
+	at com.lzy.blog.controller.TypeController$$FastClassBySpringCGLIB$$775f190c.invoke(<generated>)
+	at com.lzy.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
+	at com.lzy.blog.controller.TypeController$$EnhancerBySpringCGLIB$$81a23d8b.save(<generated>)
+Caused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'type_name' in 'class com.lzy.blog.pojo.Type'
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:10:43.022 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:14:29.720 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-07-02 01:14:43.420 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 01:14:43.465 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 01:14:43.499 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 01:14:43.637 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:14:43.644 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 194(Long), {"code":2000,"data":{"token":"1CCEF2D4D4ED2CD805949CE5C776501A"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:14:43.691 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:15:06.168 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-07-02 01:15:06.170 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: java(String)
+2020-07-02 01:15:06.172 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-07-02 01:15:06.175 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_blog(type_name) values( ? ) 
+2020-07-02 01:15:06.176 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: java(String)
+2020-07-02 01:15:06.326 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:15:06.328 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'
+### The error may involve com.lzy.blog.mapper.TypeMapper.insert-Inline
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'
+	at com.lzy.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:45)
+	at com.lzy.blog.controller.TypeController.save(TypeController.java:31)
+	at com.lzy.blog.controller.TypeController$$FastClassBySpringCGLIB$$775f190c.invoke(<generated>)
+	at com.lzy.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
+	at com.lzy.blog.controller.TypeController$$EnhancerBySpringCGLIB$$38b682be.save(<generated>)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:15:06.377 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:17:11.174 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-07-02 01:17:21.227 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 01:17:21.282 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 01:17:21.318 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 01:17:21.483 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:17:21.492 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 203(Long), {"code":2000,"data":{"token":"E81613503EA0A8AAF58255FD817ED00C"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:17:21.528 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:17:39.977 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-07-02 01:17:39.979 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: java(String)
+2020-07-02 01:17:39.981 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-07-02 01:17:39.983 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-07-02 01:17:39.984 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: java(String)
+2020-07-02 01:17:40.073 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -<==    Updates: 1
+2020-07-02 01:17:40.082 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:17:40.088 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 113(Long), {"code":2000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:17:40.144 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:19:26.327 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count,enable from bl_type where deleted = 0 
+2020-07-02 01:19:26.329 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-07-02 01:19:26.332 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 1
+2020-07-02 01:19:26.348 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:19:26.353 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 17(Long), {"code":2000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"}],"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:19:26.449 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:19:44.674 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-07-02 01:19:44.677 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: linux(String)
+2020-07-02 01:19:44.679 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-07-02 01:19:44.681 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-07-02 01:19:44.686 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: linux(String)
+2020-07-02 01:19:44.754 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -<==    Updates: 1
+2020-07-02 01:19:44.758 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:19:44.761 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=linux, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 87(Long), {"code":2000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:19:44.795 DEBUG [http-nio-9000-exec-7]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:19:47.525 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-07-02 01:19:47.526 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: linux(String)
+2020-07-02 01:19:47.528 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 1
+2020-07-02 01:19:47.534 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:19:47.537 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=linux, typeBlogCount=null, enable=null, deleted=null)](String), 0(Integer), com.lzy.blog.exception.BlogException: 该分类已经存在！
+	at com.lzy.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:42)
+	at com.lzy.blog.controller.TypeController.save(TypeController.java:31)
+	at com.lzy.blog.controller.TypeController$$FastClassBySpringCGLIB$$775f190c.invoke(<generated>)
+	at com.lzy.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)
+	at com.lzy.blog.controller.TypeController$$EnhancerBySpringCGLIB$$f758cd40.save(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:19:47.594 DEBUG [http-nio-9000-exec-8]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:19:57.448 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count from bl_type where deleted = 0 and type_name = ? 
+2020-07-02 01:19:57.450 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -==> Parameters: springboot(String)
+2020-07-02 01:19:57.452 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.TypeMapper.getByName.debug:159 -<==      Total: 0
+2020-07-02 01:19:57.454 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-07-02 01:19:57.455 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: springboot(String)
+2020-07-02 01:19:57.513 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.TypeMapper.insert.debug:159 -<==    Updates: 1
+2020-07-02 01:19:57.517 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:19:57.520 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/save(String), [Type(typeId=null, typeName=springboot, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, POST(String), 74(Long), {"code":2000,"msg":"添加成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:19:57.546 DEBUG [http-nio-9000-exec-9]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:20:04.068 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count,enable from bl_type where deleted = 0 
+2020-07-02 01:20:04.070 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-07-02 01:20:04.073 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-07-02 01:20:04.078 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:20:04.080 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 14(Long), {"code":2000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"springboot"}],"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:20:04.115 DEBUG [http-nio-9000-exec-10]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:21:08.868 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getTypeList.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count from bl_type where deleted = 0 and enable =1 
+2020-07-02 01:21:08.869 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getTypeList.debug:159 -==> Parameters: 
+2020-07-02 01:21:08.873 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getTypeList.debug:159 -<==      Total: 3
+2020-07-02 01:21:08.877 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:21:08.878 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getList(String), [](String), 1(Integer), null, GET(String), 12(Long), {"code":2000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"typeBlogCount":0,"typeId":3,"typeName":"springboot"}],"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:21:08.927 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:26:57.077 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-07-02 01:27:14.371 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 01:27:14.441 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 01:27:14.472 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 01:27:14.636 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:27:14.642 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 196(Long), {"code":2000,"data":{"token":"D7DB0C96F2F2B34B72AB9D39DEDD1EAF"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:27:14.694 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:31:25.084 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-07-02 01:31:48.203 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 01:31:48.240 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 01:31:48.273 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 01:31:48.447 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:31:48.454 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 174(Long), {"code":2000,"data":{"token":"26643007EBF85D258CE763AED0DD68D8"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:31:48.512 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:36:16.143 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET type_name = ? where type_id = ? 
+2020-07-02 01:36:16.145 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 前端(String), 3(Integer)
+2020-07-02 01:36:16.216 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 1
+2020-07-02 01:36:16.222 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:36:16.227 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/update(String), [Type(typeId=3, typeName=前端, typeBlogCount=null, enable=null, deleted=null)](String), 1(Integer), null, PUT(String), 147(Long), {"code":2000,"msg":"更新成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:36:16.245 DEBUG [http-nio-9000-exec-6]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:43:45.197 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-07-02 01:44:01.643 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 01:44:01.679 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 01:44:01.708 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 01:44:01.867 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:44:01.880 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 186(Long), {"code":2000,"data":{"token":"0D4F00F7AAD8B83FC6B3036395CF77B4"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:44:01.942 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:45:57.244 DEBUG [http-nio-9000-exec-5]com.lzy.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count,enable from bl_type where type_id = ? and deleted = 0 
+2020-07-02 01:45:57.245 DEBUG [http-nio-9000-exec-5]com.lzy.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 3(Integer)
+2020-07-02 01:45:57.248 DEBUG [http-nio-9000-exec-5]com.lzy.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-07-02 01:45:57.259 DEBUG [http-nio-9000-exec-5]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:45:57.260 DEBUG [http-nio-9000-exec-5]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getById/3(String), [3](String), 1(Integer), null, GET(String), 25(Long), {"code":2000,"data":{"enable":1},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:45:57.311 DEBUG [http-nio-9000-exec-5]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:47:50.103 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-07-02 01:48:06.761 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-07-02 01:48:06.800 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: 刘小少(String)
+2020-07-02 01:48:06.833 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-07-02 01:48:07.004 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:48:07.012 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 168(Long), {"code":2000,"data":{"token":"1DAF10829517A3AF493393ED7B38EB19"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:48:07.069 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:48:17.913 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count,enable from bl_type where type_id = ? and deleted = 0 
+2020-07-02 01:48:17.915 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 3(Integer)
+2020-07-02 01:48:17.918 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-07-02 01:48:17.928 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:48:17.930 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/getById/3(String), [3](String), 1(Integer), null, GET(String), 19(Long), {"code":2000,"data":{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:48:17.964 DEBUG [http-nio-9000-exec-3]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-07-02 01:48:29.152 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id,type_name,type_blog_count,enable from bl_type where deleted = 0 
+2020-07-02 01:48:29.153 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-07-02 01:48:29.157 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-07-02 01:48:29.164 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-07-02 01:48:29.166 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /type/listBack(String), [](String), 1(Integer), null, GET(String), 13(Long), {"code":2000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"}],"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-07-02 01:48:29.202 DEBUG [http-nio-9000-exec-4]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

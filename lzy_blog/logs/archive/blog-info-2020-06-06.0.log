@@ -1,0 +1,116 @@
+2020-06-06 01:00:56.752 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 9184 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-06-06 01:00:56.762 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-06-06 01:01:03.735 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-06-06 01:01:03.805 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-06 01:01:03.808 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-06-06 01:01:03.808 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-06 01:01:04.281 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-06-06 01:01:04.284 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 7318 ms
+2020-06-06 01:01:04.812 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-06-06 01:01:11.314 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-06-06 01:01:14.448 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 01:01:15.597 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-06-06 01:01:15.655 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-06 01:01:15.662 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 24.432 seconds (JVM running for 27.913)
+2020-06-06 01:06:19.976 INFO  [http-nio-9000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-06 01:06:19.980 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-06-06 01:06:20.080 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 99 ms
+2020-06-06 01:21:47.919 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 13036 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-06-06 01:21:47.928 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-06-06 01:21:51.713 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-06-06 01:21:51.755 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-06 01:21:51.757 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-06-06 01:21:51.758 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-06 01:21:52.148 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-06-06 01:21:52.149 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3955 ms
+2020-06-06 01:21:52.578 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-06-06 01:21:56.381 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-06-06 01:22:00.538 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 01:22:01.474 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-06-06 01:22:01.676 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-06 01:22:01.686 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 16.213 seconds (JVM running for 19.035)
+2020-06-06 01:24:58.632 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 12388 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-06-06 01:24:58.644 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-06-06 01:25:03.054 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-06-06 01:25:03.077 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-06 01:25:03.083 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-06-06 01:25:03.084 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-06 01:25:03.355 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-06-06 01:25:03.357 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4562 ms
+2020-06-06 01:25:03.677 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-06-06 01:25:06.537 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-06-06 01:25:08.849 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 01:25:09.718 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-06-06 01:25:09.773 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-06 01:25:09.779 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 13.189 seconds (JVM running for 16.95)
+2020-06-06 01:25:28.392 INFO  [http-nio-9000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-06 01:25:28.394 INFO  [http-nio-9000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-06-06 01:25:28.440 INFO  [http-nio-9000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 44 ms
+2020-06-06 01:25:41.968 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:98 -请求地址 : /test/testException
+2020-06-06 01:25:42.008 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:99 -请求方式 : GET
+2020-06-06 01:25:42.022 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:102 -IP : 0:0:0:0:0:0:0:1
+2020-06-06 01:25:42.049 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:104 -方法 : com.lzy.blog.controller.TestController.testException
+2020-06-06 01:25:42.050 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:106 -请求参数：[null]
+2020-06-06 01:28:09.078 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 9064 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-06-06 01:28:09.100 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-06-06 01:28:13.468 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-06-06 01:28:13.505 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-06 01:28:13.507 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-06-06 01:28:13.507 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-06 01:28:13.770 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-06-06 01:28:13.771 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 4493 ms
+2020-06-06 01:28:14.110 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-06-06 01:28:16.424 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-06-06 01:28:20.122 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 01:28:21.162 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-06-06 01:28:21.233 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-06 01:28:21.247 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 14.706 seconds (JVM running for 18.567)
+2020-06-06 01:29:47.020 INFO  [http-nio-9000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-06 01:29:47.022 INFO  [http-nio-9000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-06-06 01:29:47.056 INFO  [http-nio-9000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 33 ms
+2020-06-06 01:29:47.144 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:98 -请求地址 : /test/testException
+2020-06-06 01:29:47.149 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:99 -请求方式 : GET
+2020-06-06 01:29:47.161 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:102 -IP : 0:0:0:0:0:0:0:1
+2020-06-06 01:29:47.167 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:104 -方法 : com.lzy.blog.controller.TestController.testException
+2020-06-06 01:29:47.169 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:106 -请求参数：[1]
+2020-06-06 01:29:47.184 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:61 -耗时 : 40
+2020-06-06 01:29:47.524 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:73 -返回值：{"code":2000,"msg":"操作成功!"}
+2020-06-06 22:43:11.334 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 8628 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-06-06 22:43:11.408 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-06-06 22:43:18.101 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-06-06 22:43:18.154 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-06 22:43:18.156 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-06-06 22:43:18.157 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-06 22:43:18.587 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-06-06 22:43:18.588 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 7015 ms
+2020-06-06 22:43:18.981 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-06-06 22:43:21.503 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-06-06 22:43:28.404 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-06-06 22:43:28.410 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-06-06 22:43:28.434 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-06 22:44:26.648 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 12040 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-06-06 22:44:26.657 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-06-06 22:44:29.406 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-06-06 22:44:29.422 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-06 22:44:29.424 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-06-06 22:44:29.424 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-06-06 22:44:29.609 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-06-06 22:44:29.610 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2834 ms
+2020-06-06 22:44:29.808 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-06-06 22:44:30.900 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-06-06 22:44:33.075 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 22:44:33.857 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-06-06 22:44:34.038 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-06 22:44:34.046 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 8.896 seconds (JVM running for 11.7)
+2020-06-06 22:44:56.699 INFO  [http-nio-9000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-06 22:44:56.700 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-06-06 22:44:56.721 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 20 ms
+2020-06-06 22:44:56.845 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /test/testException
+2020-06-06 22:44:56.867 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-06-06 22:44:56.883 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 0:0:0:0:0:0:0:1
+2020-06-06 22:44:56.887 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TestController.testException
+2020-06-06 22:44:56.887 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[1]
+2020-06-06 22:44:56.901 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 57
+2020-06-06 22:44:57.118 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":2000,"msg":"操作成功!"}

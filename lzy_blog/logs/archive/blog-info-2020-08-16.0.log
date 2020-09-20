@@ -1,0 +1,933 @@
+2020-08-16 12:06:40.012 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 10748 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-08-16 12:06:40.071 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-08-16 12:06:50.242 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.lzy.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$57273e5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:50.497 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:50.518 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$68d4d465] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:50.528 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$4fac78a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:50.538 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-08-16 12:06:50.975 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:51.009 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:51.107 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:53.181 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-08-16 12:06:53.182 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:53.311 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:55.562 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:55.572 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:55.588 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:55.595 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:55.599 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.lzy.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:55.601 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.lzy.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:58.684 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:06:58.740 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:07:00.923 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-08-16 12:07:00.995 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-08-16 12:07:00.998 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-08-16 12:07:01.001 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-16 12:07:01.791 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-08-16 12:07:01.792 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 21456 ms
+2020-08-16 12:07:09.136 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-08-16 12:07:09.273 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-08-16 12:07:09.286 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 35.975 seconds (JVM running for 55.006)
+2020-08-16 12:07:47.474 INFO  [http-nio-9000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 12:07:47.476 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-08-16 12:07:47.538 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 61 ms
+2020-08-16 12:07:48.046 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 12:07:48.052 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 12:07:48.059 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:07:48.068 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 12:07:48.069 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 12:07:48.832 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 787
+2020-08-16 12:07:49.116 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"E3266F90FCDC8074B2636E1752B45726"},"msg":"操作成功!"}
+2020-08-16 12:07:50.263 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:07:50.264 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:07:50.265 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:07:50.266 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:07:50.267 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:07:50.268 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 5
+2020-08-16 12:07:50.279 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:09:02.541 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:09:02.552 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:09:02.554 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:09:02.555 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:09:02.556 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:09:02.557 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 16
+2020-08-16 12:09:02.558 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:11:02.514 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:11:02.516 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:11:02.518 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:11:02.520 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:11:02.522 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:11:02.523 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 10
+2020-08-16 12:11:02.524 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:23:58.753 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:23:58.757 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:23:58.758 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:23:58.759 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:23:58.761 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:23:58.762 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 9
+2020-08-16 12:23:58.763 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:25:17.365 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:25:17.367 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:25:17.369 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:25:17.370 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:25:17.370 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:25:17.371 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 12:25:17.372 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:27:55.247 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:27:55.251 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:27:55.252 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:27:55.252 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:27:55.253 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:27:55.254 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 7
+2020-08-16 12:27:55.255 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:27:57.213 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:27:57.214 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:27:57.215 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:27:57.216 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:27:57.217 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:27:57.219 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 12:27:57.225 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:30:30.446 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:30:30.448 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:30:30.449 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:30:30.450 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:30:30.451 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:30:30.452 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 12:30:30.454 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:30:33.030 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 12:30:33.031 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:30:33.032 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:30:33.037 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 12:30:33.037 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:30:33.378 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 348
+2020-08-16 12:30:33.392 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"}],"msg":"操作成功!"}
+2020-08-16 12:32:02.327 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:32:02.335 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:32:02.337 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:32:02.338 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:32:02.339 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:32:02.340 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 13
+2020-08-16 12:32:02.341 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:32:02.648 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 12:32:02.649 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:32:02.650 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:32:02.651 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 12:32:02.652 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:32:02.667 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 19
+2020-08-16 12:32:02.668 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"}],"msg":"操作成功!"}
+2020-08-16 12:33:24.584 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:33:24.586 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:33:24.587 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:33:24.588 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:33:24.589 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:33:24.590 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 12:33:24.591 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:33:24.712 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:33:24.713 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:33:24.714 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:33:24.715 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:33:24.715 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:33:24.716 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 4
+2020-08-16 12:33:24.717 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:33:25.089 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 12:33:25.090 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:33:25.091 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:33:25.092 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 12:33:25.092 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:33:25.100 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 11
+2020-08-16 12:33:25.101 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"}],"msg":"操作成功!"}
+2020-08-16 12:33:55.647 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:33:55.650 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:33:55.658 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:33:55.671 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:33:55.675 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:33:55.676 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 30
+2020-08-16 12:33:55.678 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:33:56.224 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:33:56.224 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:33:56.225 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:33:56.226 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:33:56.226 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:33:56.227 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 3
+2020-08-16 12:33:56.228 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:33:56.730 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 12:33:56.731 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:33:56.732 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:33:56.734 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 12:33:56.736 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:33:56.743 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 13
+2020-08-16 12:33:56.744 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"}],"msg":"操作成功!"}
+2020-08-16 12:34:01.200 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 12:34:01.202 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:34:01.203 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:34:01.204 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 12:34:01.206 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:34:01.248 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 48
+2020-08-16 12:34:01.249 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"}],"msg":"操作成功!"}
+2020-08-16 12:37:57.028 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:37:57.031 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:37:57.032 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:37:57.033 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:37:57.034 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:37:57.034 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 12:37:57.035 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:37:57.323 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 12:37:57.323 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:37:57.324 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:37:57.324 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 12:37:57.325 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:37:57.340 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 17
+2020-08-16 12:37:57.341 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"}],"msg":"操作成功!"}
+2020-08-16 12:39:00.095 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/save
+2020-08-16 12:39:00.096 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 12:39:00.097 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:39:00.097 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.save
+2020-08-16 12:39:00.098 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Type(typeId=null, typeName=mysql, typeBlogCount=null, enable=null, deleted=null)]
+2020-08-16 12:39:00.212 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 117
+2020-08-16 12:39:00.213 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"msg":"添加成功"}
+2020-08-16 12:39:00.314 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 12:39:00.316 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:39:00.316 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:39:00.317 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 12:39:00.363 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:39:00.374 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 60
+2020-08-16 12:39:00.375 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 12:39:04.213 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/getById/4
+2020-08-16 12:39:04.214 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:39:04.215 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:39:04.216 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.getById
+2020-08-16 12:39:04.217 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[4]
+2020-08-16 12:39:04.262 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 48
+2020-08-16 12:39:04.262 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"},"msg":"操作成功!"}
+2020-08-16 12:40:35.624 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:40:35.626 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:40:35.630 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:40:35.633 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:40:35.635 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:40:35.636 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 12
+2020-08-16 12:40:35.638 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:40:37.079 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 12:40:37.080 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:40:37.081 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:40:37.082 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 12:40:37.082 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:40:37.083 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 4
+2020-08-16 12:40:37.084 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 12:40:44.860 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 12:40:44.864 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 12:40:44.865 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 12:40:44.866 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 12:40:44.867 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 12:40:44.878 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 18
+2020-08-16 12:40:44.880 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 12:46:07.123 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 7968 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-08-16 12:46:07.133 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-08-16 12:46:11.083 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.lzy.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$2213b13e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:11.175 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:11.197 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$33c14746] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:11.203 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$1a98eb88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:11.211 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-08-16 12:46:11.545 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:11.604 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:11.666 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:13.184 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-08-16 12:46:13.186 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:13.388 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:14.406 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:14.436 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:14.451 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:14.459 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:14.462 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.lzy.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:14.464 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.lzy.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:17.265 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:17.313 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:46:18.644 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-08-16 12:46:18.709 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-08-16 12:46:18.711 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-08-16 12:46:18.711 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-16 12:46:19.287 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-08-16 12:46:19.288 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 12006 ms
+2020-08-16 12:46:21.137 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-08-16 12:46:21.143 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-08-16 12:46:21.170 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-16 12:47:18.240 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 32 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-08-16 12:47:18.251 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-08-16 12:47:21.776 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.lzy.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$b771bf13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:21.870 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:21.897 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$c91f551b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:21.907 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$aff6f95d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:21.916 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-08-16 12:47:22.062 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:22.100 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:22.143 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:23.046 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-08-16 12:47:23.047 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:23.216 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:23.871 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:23.886 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:23.910 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:23.918 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:23.922 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.lzy.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:23.924 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.lzy.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:25.123 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:25.168 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 12:47:25.693 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-08-16 12:47:25.708 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-08-16 12:47:25.709 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-08-16 12:47:25.710 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-16 12:47:25.885 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-08-16 12:47:25.885 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 7474 ms
+2020-08-16 12:47:28.321 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-08-16 12:47:28.375 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-08-16 12:47:28.381 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 12.063 seconds (JVM running for 14.825)
+2020-08-16 13:07:34.028 INFO  [http-nio-9000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 13:07:34.029 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-08-16 13:07:34.157 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 127 ms
+2020-08-16 13:07:35.226 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 13:07:35.244 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 13:07:35.325 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:07:35.329 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 13:07:35.330 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 13:07:36.259 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 1034
+2020-08-16 13:07:36.518 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"C536B77B275A0149CA49E886095F579D"},"msg":"操作成功!"}
+2020-08-16 13:07:37.477 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:07:37.479 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:07:37.480 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:07:37.481 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:07:37.481 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:07:37.485 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 8
+2020-08-16 13:07:37.498 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:08:16.568 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 13:08:16.569 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:08:16.570 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:08:16.570 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 13:08:16.571 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:08:16.589 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 21
+2020-08-16 13:08:16.596 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 13:16:35.525 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:16:35.526 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:16:35.527 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:16:35.528 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:16:35.532 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:16:35.533 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 8
+2020-08-16 13:16:35.534 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:24:04.993 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:24:04.994 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:24:04.997 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:24:04.998 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:24:05.002 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:24:05.003 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 10
+2020-08-16 13:24:05.004 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:24:37.780 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:24:37.785 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:24:37.789 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:24:37.793 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:24:37.794 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:24:37.796 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 16
+2020-08-16 13:24:37.799 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:24:39.207 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:24:39.211 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:24:39.213 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:24:39.214 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:24:39.216 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:24:39.217 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 10
+2020-08-16 13:24:39.218 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:25:30.902 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:25:30.903 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:25:30.904 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:25:30.905 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:25:30.907 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:25:30.908 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 7
+2020-08-16 13:25:30.912 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:25:58.713 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:25:58.715 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:25:58.716 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:25:58.718 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:25:58.722 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:25:58.724 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 11
+2020-08-16 13:25:58.726 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:28:22.062 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:28:22.064 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:28:22.066 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:28:22.068 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:28:22.069 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:28:22.070 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 8
+2020-08-16 13:28:22.071 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:28:26.332 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 13:28:26.333 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:28:26.334 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:28:26.334 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 13:28:26.335 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:28:26.341 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 9
+2020-08-16 13:28:26.342 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 13:29:06.093 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:29:06.098 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:29:06.100 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:29:06.107 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:29:06.109 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:29:06.116 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 23
+2020-08-16 13:29:06.118 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:29:06.418 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 13:29:06.419 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:29:06.420 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:29:06.421 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 13:29:06.425 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:29:06.444 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 26
+2020-08-16 13:29:06.445 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 13:29:10.587 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 13:29:10.588 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:29:10.590 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:29:10.593 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 13:29:10.596 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:29:10.609 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 22
+2020-08-16 13:29:10.610 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 13:31:07.465 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:31:07.467 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:31:07.468 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:31:07.469 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:31:07.469 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:31:07.470 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 5
+2020-08-16 13:31:07.471 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:31:08.626 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 13:31:08.627 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:31:08.628 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:31:08.628 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 13:31:08.629 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:31:08.636 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 11
+2020-08-16 13:31:08.638 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 13:31:33.206 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:31:33.207 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:31:33.208 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:31:33.209 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:31:33.210 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:31:33.210 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 4
+2020-08-16 13:31:33.212 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:31:33.798 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 13:31:33.799 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:31:33.801 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:31:33.804 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 13:31:33.805 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:31:33.813 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 15
+2020-08-16 13:31:33.816 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 13:31:36.737 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:31:36.738 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:31:36.739 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:31:36.741 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:31:36.742 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:31:36.743 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 13:31:36.743 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:31:37.098 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 13:31:37.099 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:31:37.100 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:31:37.100 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 13:31:37.102 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:31:37.117 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 19
+2020-08-16 13:31:37.119 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 13:31:51.231 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:31:51.232 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:31:51.233 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:31:51.235 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:31:51.239 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:31:51.240 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 9
+2020-08-16 13:31:51.246 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:31:51.617 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 13:31:51.618 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:31:51.619 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:31:51.619 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 13:31:51.621 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:31:51.632 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 15
+2020-08-16 13:31:51.636 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 13:33:29.347 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:33:29.349 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:33:29.350 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:33:29.351 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:33:29.352 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:33:29.354 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 11
+2020-08-16 13:33:29.355 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:35:44.443 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:35:44.444 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:35:44.445 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:35:44.447 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:35:44.448 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:35:44.450 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 7
+2020-08-16 13:35:44.451 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:36:40.650 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:36:40.652 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:36:40.652 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:36:40.654 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:36:40.656 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:36:40.657 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 7
+2020-08-16 13:36:40.658 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:36:59.258 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:36:59.259 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:36:59.260 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:36:59.260 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:36:59.262 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:36:59.263 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 5
+2020-08-16 13:36:59.263 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:37:02.470 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 13:37:02.472 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 13:37:02.474 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:37:02.481 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 13:37:02.484 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 13:37:12.018 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 13:37:12.022 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 13:37:12.024 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:37:12.025 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 13:37:12.026 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=blogComment, sortMethod=asc)]
+2020-08-16 13:37:12.027 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 9
+2020-08-16 13:37:12.027 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":40005,"msg":"排序的参数不合法！"}
+2020-08-16 13:37:13.254 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 13:37:13.255 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 13:37:13.255 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:37:13.256 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 13:37:13.256 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=blogComment, sortMethod=desc)]
+2020-08-16 13:37:13.257 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 3
+2020-08-16 13:37:13.257 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":40005,"msg":"排序的参数不合法！"}
+2020-08-16 13:42:13.087 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:42:13.089 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:42:13.090 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:42:13.090 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:42:13.091 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:42:13.092 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 5
+2020-08-16 13:42:13.092 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:42:13.921 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 13:42:13.922 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 13:42:13.922 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:42:13.923 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 13:42:13.925 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 13:46:46.900 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:46:46.901 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:46:46.904 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:46:46.905 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:46:46.906 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:46:46.906 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 13:46:46.907 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:46:48.523 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 13:46:48.524 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 13:46:48.525 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:46:48.526 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 13:46:48.526 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 13:51:48.085 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 13:51:48.185 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 13:51:48.219 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:51:48.219 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 13:51:48.220 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 13:51:48.303 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 218
+2020-08-16 13:51:48.304 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"B456C3AA9A0D6815D5BBA742E0E4A277"},"msg":"操作成功!"}
+2020-08-16 13:51:48.633 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 13:51:48.634 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 13:51:48.634 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:51:48.635 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 13:51:48.635 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 13:51:48.636 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 3
+2020-08-16 13:51:48.636 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 13:51:49.328 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 13:51:49.329 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 13:51:49.331 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 13:51:49.332 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 13:51:49.334 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:06:04.898 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 14:06:04.931 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:06:04.934 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:06:04.937 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 14:06:04.940 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:06:05.022 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 124
+2020-08-16 14:06:05.023 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 14:06:07.720 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:06:07.721 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:06:07.722 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:06:07.722 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:06:07.723 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:10:19.901 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:10:19.902 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:10:19.905 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:10:19.906 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:10:19.907 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:10:19.908 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 7
+2020-08-16 14:10:19.910 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:10:20.546 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:10:20.547 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:10:20.548 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:10:20.549 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:10:20.558 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:10:33.522 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:10:33.523 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:10:33.523 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:10:33.551 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:10:33.552 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:10:33.554 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 33
+2020-08-16 14:10:33.558 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:10:34.363 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:10:34.364 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:10:34.365 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:10:34.365 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:10:34.366 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:12:59.194 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:12:59.196 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:12:59.196 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:12:59.197 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:12:59.198 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:12:59.225 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 31
+2020-08-16 14:12:59.227 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:13:00.968 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:13:00.971 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:13:00.973 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:13:00.973 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:13:00.974 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:17:27.722 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 14696 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-08-16 14:17:27.729 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-08-16 14:17:33.750 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.lzy.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$c09525f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:33.844 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:33.868 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d242bbfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:33.876 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$b91a603d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:33.883 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-08-16 14:17:34.281 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:34.314 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:34.487 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:37.025 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-08-16 14:17:37.027 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:37.187 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:38.287 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:38.296 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:38.311 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:38.318 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:38.322 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.lzy.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:38.325 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.lzy.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:40.101 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:40.183 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:17:41.232 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-08-16 14:17:41.292 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-08-16 14:17:41.294 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-08-16 14:17:41.295 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-16 14:17:41.732 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-08-16 14:17:41.733 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 13393 ms
+2020-08-16 14:17:45.307 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-08-16 14:17:45.358 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-08-16 14:17:45.362 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 27.832 seconds (JVM running for 67.427)
+2020-08-16 14:18:18.811 INFO  [http-nio-9000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 14:18:18.814 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-08-16 14:18:18.889 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 75 ms
+2020-08-16 14:18:22.552 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 14:18:22.558 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:18:22.559 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:18:22.563 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 14:18:22.565 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 14:18:22.805 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 255
+2020-08-16 14:18:23.054 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"63C403E23EF47D661F3CCE01567C6DD2"},"msg":"操作成功!"}
+2020-08-16 14:18:23.428 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:18:23.429 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:18:23.439 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:18:23.441 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:18:23.442 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:18:23.444 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 16
+2020-08-16 14:18:23.462 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:18:24.203 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:18:24.205 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:18:24.209 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:18:24.210 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:18:24.223 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:26:32.190 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 13836 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-08-16 14:26:32.205 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-08-16 14:26:36.889 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.lzy.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$c89bbb5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:36.993 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:37.024 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$da495162] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:37.038 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$c120f5a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:37.050 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-08-16 14:26:37.429 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:37.473 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:37.532 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:38.782 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-08-16 14:26:38.784 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:39.026 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:42.773 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:42.792 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:42.824 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:42.839 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:42.843 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.lzy.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:42.851 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.lzy.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:46.089 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:46.180 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:26:47.212 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-08-16 14:26:47.363 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-08-16 14:26:47.365 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-08-16 14:26:47.368 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-16 14:26:48.194 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-08-16 14:26:48.195 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 15688 ms
+2020-08-16 14:26:51.979 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-08-16 14:26:52.044 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-08-16 14:26:52.049 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 24.36 seconds (JVM running for 30.374)
+2020-08-16 14:27:07.589 INFO  [http-nio-9000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 14:27:07.595 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-08-16 14:27:07.666 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 70 ms
+2020-08-16 14:27:11.580 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 14:27:11.582 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:27:11.583 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:27:11.588 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 14:27:11.590 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 14:27:11.718 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 138
+2020-08-16 14:27:11.916 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"368510FE0FFB6B8BF56352D3253E17F5"},"msg":"操作成功!"}
+2020-08-16 14:27:12.128 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:27:12.129 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:27:12.130 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:27:12.131 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:27:12.132 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:27:12.132 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 4
+2020-08-16 14:27:12.144 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:27:12.780 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:27:12.780 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:27:12.781 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:27:12.782 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:27:12.789 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:31:57.987 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarting:55 -Starting LzyBlogApplication on ICOS-20170907XR with PID 2712 (F:\springboot\lzy_blog\target\classes started by Administrator in F:\springboot\lzy_blog)
+2020-08-16 14:31:57.996 INFO  [main]com.lzy.blog.LzyBlogApplication.logStartupProfileInfo:651 -No active profile set, falling back to default profiles: default
+2020-08-16 14:32:00.514 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.lzy.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$deb68165] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:00.651 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:00.691 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f064176d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:00.707 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$d73bbbaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:00.716 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-08-16 14:32:00.883 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:00.935 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:00.993 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:02.093 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-08-16 14:32:02.094 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:02.275 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:02.912 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:02.924 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:02.937 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:02.947 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:02.950 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.lzy.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:02.953 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.lzy.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:04.175 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:04.223 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-16 14:32:04.732 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 9000 (http)
+2020-08-16 14:32:04.749 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-08-16 14:32:04.750 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-08-16 14:32:04.751 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-16 14:32:04.956 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-08-16 14:32:04.957 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 6821 ms
+2020-08-16 14:32:07.822 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-08-16 14:32:07.894 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:203 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-08-16 14:32:07.934 INFO  [main]com.lzy.blog.LzyBlogApplication.logStarted:61 -Started LzyBlogApplication in 11.751 seconds (JVM running for 14.831)
+2020-08-16 14:32:46.394 INFO  [http-nio-9000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-16 14:32:46.396 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-08-16 14:32:46.460 INFO  [http-nio-9000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 63 ms
+2020-08-16 14:32:55.697 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 14:32:55.699 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:32:55.700 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:32:55.703 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 14:32:55.704 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 14:32:55.834 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 137
+2020-08-16 14:32:56.000 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"6DA47223C51F38FD9008BF2C0CDDE2DF"},"msg":"操作成功!"}
+2020-08-16 14:32:56.183 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:32:56.184 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:32:56.185 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:32:56.187 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:32:56.191 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:32:56.192 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 9
+2020-08-16 14:32:56.203 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:32:56.835 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:32:56.836 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:32:56.837 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:32:56.838 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:32:56.841 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:32:56.978 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 143
+2020-08-16 14:32:56.992 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990077652549632","blogRead":1,"blogTitle":"修改后侧测试博客","createdTime":"2020-07-06 12:06:30.0","typeName":"java","updateTime":"2020-07-06 13:52:10.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990229473771520","blogRead":0,"blogTitle":"闲言博客2","createdTime":"2020-07-06 12:07:06.0","typeName":"linux","updateTime":"2020-07-06 12:07:06.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990336076201984","blogRead":0,"blogTitle":"闲言博客3","createdTime":"2020-07-06 12:07:31.0","typeName":"前端","updateTime":"2020-07-06 12:07:31.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1280014508382773248","blogRead":1,"blogTitle":"闲言博客4","createdTime":"2020-07-06 13:43:34.0","typeName":"前端","updateTime":"2020-07-06 13:52:19.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 14:37:25.782 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:37:25.785 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:37:25.786 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:37:25.787 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:37:25.788 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:37:25.788 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 14:37:25.790 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:37:26.500 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:37:26.502 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:37:26.504 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:37:26.505 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:37:26.506 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:37:26.532 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 32
+2020-08-16 14:37:26.534 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990077652549632","blogRead":1,"blogTitle":"修改后侧测试博客","createdTime":"2020-07-06 12:06:30.0","typeName":"java","updateTime":"2020-07-06 13:52:10.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990229473771520","blogRead":0,"blogTitle":"闲言博客2","createdTime":"2020-07-06 12:07:06.0","typeName":"linux","updateTime":"2020-07-06 12:07:06.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990336076201984","blogRead":0,"blogTitle":"闲言博客3","createdTime":"2020-07-06 12:07:31.0","typeName":"前端","updateTime":"2020-07-06 12:07:31.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1280014508382773248","blogRead":1,"blogTitle":"闲言博客4","createdTime":"2020-07-06 13:43:34.0","typeName":"前端","updateTime":"2020-07-06 13:52:19.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 14:43:56.649 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:43:56.651 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:43:56.652 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:43:56.653 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:43:56.654 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:43:56.655 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 14:43:56.656 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:43:57.310 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:43:57.311 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:43:57.313 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:43:57.315 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:43:57.315 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:43:57.342 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 32
+2020-08-16 14:43:57.343 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990077652549632","blogRead":1,"blogTitle":"修改后侧测试博客","createdTime":"2020-07-06 12:06:30.0","typeName":"java","updateTime":"2020-07-06 13:52:10.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990229473771520","blogRead":0,"blogTitle":"闲言博客2","createdTime":"2020-07-06 12:07:06.0","typeName":"linux","updateTime":"2020-07-06 12:07:06.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990336076201984","blogRead":0,"blogTitle":"闲言博客3","createdTime":"2020-07-06 12:07:31.0","typeName":"前端","updateTime":"2020-07-06 12:07:31.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1280014508382773248","blogRead":1,"blogTitle":"闲言博客4","createdTime":"2020-07-06 13:43:34.0","typeName":"前端","updateTime":"2020-07-06 13:52:19.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 14:45:01.925 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:45:01.926 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:45:01.928 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:45:01.928 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:45:01.929 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:45:01.930 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 5
+2020-08-16 14:45:01.931 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:45:02.431 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:45:02.432 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:45:02.432 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:45:02.433 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:45:02.434 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:45:02.471 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 40
+2020-08-16 14:45:02.472 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990077652549632","blogRead":1,"blogTitle":"修改后侧测试博客","createdTime":"2020-07-06 12:06:30.0","typeName":"java","updateTime":"2020-07-06 13:52:10.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990229473771520","blogRead":0,"blogTitle":"闲言博客2","createdTime":"2020-07-06 12:07:06.0","typeName":"linux","updateTime":"2020-07-06 12:07:06.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990336076201984","blogRead":0,"blogTitle":"闲言博客3","createdTime":"2020-07-06 12:07:31.0","typeName":"前端","updateTime":"2020-07-06 12:07:31.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1280014508382773248","blogRead":1,"blogTitle":"闲言博客4","createdTime":"2020-07-06 13:43:34.0","typeName":"前端","updateTime":"2020-07-06 13:52:19.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 14:45:30.739 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 14:45:30.740 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:45:30.740 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:45:30.740 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 14:45:30.740 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 14:45:30.748 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 9
+2020-08-16 14:45:30.748 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"9962A6AABB8F824B3853C5536A26BFBD"},"msg":"操作成功!"}
+2020-08-16 14:45:31.121 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:45:31.122 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:45:31.122 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:45:31.123 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:45:31.123 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:45:31.124 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 3
+2020-08-16 14:45:31.125 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:45:31.836 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:45:31.837 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:45:31.837 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:45:31.838 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:45:31.838 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:45:31.867 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 31
+2020-08-16 14:45:31.868 INFO  [http-nio-9000-exec-6]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990077652549632","blogRead":1,"blogTitle":"修改后侧测试博客","createdTime":"2020-07-06 12:06:30.0","typeName":"java","updateTime":"2020-07-06 13:52:10.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990229473771520","blogRead":0,"blogTitle":"闲言博客2","createdTime":"2020-07-06 12:07:06.0","typeName":"linux","updateTime":"2020-07-06 12:07:06.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990336076201984","blogRead":0,"blogTitle":"闲言博客3","createdTime":"2020-07-06 12:07:31.0","typeName":"前端","updateTime":"2020-07-06 12:07:31.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1280014508382773248","blogRead":1,"blogTitle":"闲言博客4","createdTime":"2020-07-06 13:43:34.0","typeName":"前端","updateTime":"2020-07-06 13:52:19.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 14:49:21.990 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 14:49:21.992 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 14:49:21.993 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:49:21.995 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 14:49:21.996 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 14:49:21.996 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 6
+2020-08-16 14:49:21.997 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 14:49:22.524 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 14:49:22.525 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 14:49:22.525 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 14:49:22.527 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 14:49:22.528 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 14:49:22.582 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 58
+2020-08-16 14:49:22.583 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990077652549632","blogRead":1,"blogTitle":"修改后侧测试博客","createdTime":"2020-07-06 12:06:30.0","typeName":"java","updateTime":"2020-07-06 13:52:10.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990229473771520","blogRead":0,"blogTitle":"闲言博客2","createdTime":"2020-07-06 12:07:06.0","typeName":"linux","updateTime":"2020-07-06 12:07:06.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990336076201984","blogRead":0,"blogTitle":"闲言博客3","createdTime":"2020-07-06 12:07:31.0","typeName":"前端","updateTime":"2020-07-06 12:07:31.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1280014508382773248","blogRead":1,"blogTitle":"闲言博客4","createdTime":"2020-07-06 13:43:34.0","typeName":"前端","updateTime":"2020-07-06 13:52:19.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 15:01:30.562 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 15:01:30.563 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:01:30.564 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:01:30.565 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 15:01:30.565 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:01:30.566 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 4
+2020-08-16 15:01:30.569 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 15:01:31.444 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 15:01:31.445 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:01:31.446 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:01:31.446 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 15:01:31.447 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:01:31.447 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 53
+2020-08-16 15:01:31.448 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 15:01:33.012 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/getList
+2020-08-16 15:01:33.018 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:01:33.019 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:01:33.019 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.getList
+2020-08-16 15:01:33.020 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:01:33.688 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 676
+2020-08-16 15:01:35.509 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 15:01:56.910 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 15:01:56.912 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 15:01:56.913 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:01:56.915 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 15:01:56.916 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 15:01:57.038 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 128
+2020-08-16 15:01:57.039 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"9962A6AABB8F824B3853C5536A26BFBD"},"msg":"操作成功!"}
+2020-08-16 15:01:58.266 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 15:01:58.269 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 15:01:58.271 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:01:58.277 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 15:01:58.279 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 15:01:58.363 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 97
+2020-08-16 15:01:58.365 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990077652549632","blogRead":1,"blogTitle":"修改后侧测试博客","createdTime":"2020-07-06 12:06:30.0","typeName":"java","updateTime":"2020-07-06 13:52:10.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990229473771520","blogRead":0,"blogTitle":"闲言博客2","createdTime":"2020-07-06 12:07:06.0","typeName":"linux","updateTime":"2020-07-06 12:07:06.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990336076201984","blogRead":0,"blogTitle":"闲言博客3","createdTime":"2020-07-06 12:07:31.0","typeName":"前端","updateTime":"2020-07-06 12:07:31.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1280014508382773248","blogRead":1,"blogTitle":"闲言博客4","createdTime":"2020-07-06 13:43:34.0","typeName":"前端","updateTime":"2020-07-06 13:52:19.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 15:01:58.449 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/getList
+2020-08-16 15:01:58.450 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:01:58.451 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:01:58.452 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.getList
+2020-08-16 15:01:58.453 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:01:58.461 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 12
+2020-08-16 15:01:58.462 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 15:02:06.024 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/getAdmin
+2020-08-16 15:02:06.025 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:02:06.026 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:02:06.027 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getAdmin
+2020-08-16 15:02:06.027 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:02:06.139 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 115
+2020-08-16 15:02:06.140 INFO  [http-nio-9000-exec-4]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"comment":"我是java劝退师","id":1,"name":"刘哥","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 15:02:16.516 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /log/getByPage
+2020-08-16 15:02:16.517 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 15:02:16.575 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:02:16.577 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.LogController.getByPage
+2020-08-16 15:02:16.580 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 15:02:17.126 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 610
+2020-08-16 15:02:17.162 INFO  [http-nio-9000-exec-5]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-07-01 15:50:45.0","logId":5,"logIp":"0:0:0:0:0:0:0:1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":2000,\"data\":{\"name\":\"刘哥\",\"password\":\"\",\"signature\":\"一动可搬山，可倒海\",\"username\":\"刘小少\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":25,"logUrl":"/admin/getLoginInfo"},{"createdTime":"2020-07-02 00:54:04.0","logId":6,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"7933145F4818150DEDC6D3C12C578219\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":181,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 00:54:28.0","logId":7,"logIp":"0:0:0:0:0:0:0:1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":2000,\"data\":{\"name\":\"刘哥\",\"password\":\"\",\"signature\":\"一动可搬山，可倒海\",\"username\":\"刘小少\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":7,"logUrl":"/admin/getLoginInfo"},{"createdTime":"2020-07-02 00:56:34.0","logId":8,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"7933145F4818150DEDC6D3C12C578219\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":17,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 00:59:40.0","logId":9,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"61762D7D9FD86197E62B37661ABD197D\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":161,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:07:05.0","logId":10,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"61762D7D9FD86197E62B37661ABD197D\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":13,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:10:42.0","logId":11,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'type_name' in 'class com.lzy.blog.pojo.Type'\n\tat com.lzy.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:45)\n\tat com.lzy.blog.controller.TypeController.save(TypeController.java:31)\n\tat com.lzy.blog.controller.TypeController$$FastClassBySpringCGLIB$$775f190c.invoke(<generated>)\n\tat com.lzy.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lzy.blog.controller.TypeController$$EnhancerBySpringCGLIB$$81a23d8b.save(<generated>)\nCaused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'type_name' in 'class com.lzy.blog.pojo.Type'\n","logMethod":"POST","logParams":"[Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null)]","logStatus":0,"logTime":0,"logUrl":"/type/save"},{"createdTime":"2020-07-02 01:14:43.0","logId":12,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"1CCEF2D4D4ED2CD805949CE5C776501A\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":194,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:15:06.0","logId":13,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.springframework.jdbc.BadSqlGrammarException: \n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'\n### The error may involve com.lzy.blog.mapper.TypeMapper.insert-Inline\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'\n; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'\n\tat com.lzy.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:45)\n\tat com.lzy.blog.controller.TypeController.save(TypeController.java:31)\n\tat com.lzy.blog.controller.TypeController$$FastClassBySpringCGLIB$$775f190c.invoke(<generated>)\n\tat com.lzy.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lzy.blog.controller.TypeController$$EnhancerBySpringCGLIB$$38b682be.save(<generated>)\nCaused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'\n","logMethod":"POST","logParams":"[Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null)]","logStatus":0,"logTime":0,"logUrl":"/type/save"},{"createdTime":"2020-07-02 01:17:21.0","logId":14,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"E81613503EA0A8AAF58255FD817ED00C\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":203,"logUrl":"/admin/login"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":471,"totalPage":48},"msg":"操作成功!"}
+2020-08-16 15:02:36.041 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 15:02:36.041 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:02:36.042 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:02:36.042 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 15:02:36.043 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:02:36.043 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 2
+2020-08-16 15:02:36.044 INFO  [http-nio-9000-exec-7]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 15:02:36.327 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/getList
+2020-08-16 15:02:36.328 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:02:36.328 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:02:36.330 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.getList
+2020-08-16 15:02:36.348 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:02:36.381 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 54
+2020-08-16 15:02:36.383 INFO  [http-nio-9000-exec-8]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"java"},{"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 15:02:47.101 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /type/listBack
+2020-08-16 15:02:47.102 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:02:47.104 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:02:47.106 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.TypeController.list
+2020-08-16 15:02:47.106 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:02:47.125 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 24
+2020-08-16 15:02:47.126 INFO  [http-nio-9000-exec-9]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"前端"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"mysql"}],"msg":"操作成功!"}
+2020-08-16 15:02:50.618 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /blog/getByPage
+2020-08-16 15:02:50.619 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 15:02:50.620 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:02:50.620 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.BlogController.getByPage
+2020-08-16 15:02:50.622 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 15:02:50.644 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 26
+2020-08-16 15:02:50.644 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990077652549632","blogRead":1,"blogTitle":"修改后侧测试博客","createdTime":"2020-07-06 12:06:30.0","typeName":"java","updateTime":"2020-07-06 13:52:10.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990229473771520","blogRead":0,"blogTitle":"闲言博客2","createdTime":"2020-07-06 12:07:06.0","typeName":"linux","updateTime":"2020-07-06 12:07:06.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1279990336076201984","blogRead":0,"blogTitle":"闲言博客3","createdTime":"2020-07-06 12:07:31.0","typeName":"前端","updateTime":"2020-07-06 12:07:31.0"},{"blogCollection":0,"blogComment":0,"blogGoods":0,"blogId":"1280014508382773248","blogRead":1,"blogTitle":"闲言博客4","createdTime":"2020-07-06 13:43:34.0","typeName":"前端","updateTime":"2020-07-06 13:52:19.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 15:02:59.385 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /about/getByPage
+2020-08-16 15:02:59.386 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 15:02:59.386 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:02:59.387 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AboutController.getBuPage
+2020-08-16 15:02:59.387 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=10, totalPage=0, totalCount=0, index=0, list=[], params={}, sortColumn=, sortMethod=asc)]
+2020-08-16 15:02:59.545 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 160
+2020-08-16 15:02:59.556 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"aboutId":1,"aboutRead":5,"aboutTitle":"修改后的关于","createdTime":"2020-07-06 20:38:50.0","enable":1,"updateTime":"2020-07-14 14:03:35.0"},{"aboutId":2,"aboutRead":0,"aboutTitle":"关于的功能测试2","createdTime":"2020-07-06 20:39:17.0","enable":0,"updateTime":"2020-07-06 20:39:17.0"},{"aboutId":3,"aboutRead":0,"aboutTitle":"关于的功能测试3","createdTime":"2020-07-06 20:39:22.0","enable":0,"updateTime":"2020-07-06 20:39:22.0"},{"aboutId":4,"aboutRead":0,"aboutTitle":"关于的功能测试4","createdTime":"2020-07-06 20:39:27.0","enable":0,"updateTime":"2020-07-06 20:48:04.0"}],"pageSize":10,"params":{},"sortColumn":"","sortMethod":"asc","totalCount":4,"totalPage":1},"msg":"操作成功!"}
+2020-08-16 15:35:25.129 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 15:35:25.131 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 15:35:25.132 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:35:25.212 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 15:35:25.213 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=96e79218965eb72c92a549dd5a330112)]
+2020-08-16 15:35:28.179 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 3050
+2020-08-16 15:35:28.181 INFO  [http-nio-9000-exec-10]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":40002,"msg":"用户名或者密码或者密码错误"}
+2020-08-16 15:35:40.962 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/login
+2020-08-16 15:35:41.013 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 15:35:41.027 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:35:41.029 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.login
+2020-08-16 15:35:41.032 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)]
+2020-08-16 15:35:41.098 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 136
+2020-08-16 15:35:41.098 INFO  [http-nio-9000-exec-1]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"token":"EB6205232F28B612CD3E0968F139A86B"},"msg":"操作成功!"}
+2020-08-16 15:35:41.213 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /admin/info
+2020-08-16 15:35:41.214 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : GET
+2020-08-16 15:35:41.215 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:35:41.215 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.AdminController.getLoginInfo
+2020-08-16 15:35:41.215 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[]
+2020-08-16 15:35:41.216 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 3
+2020-08-16 15:35:41.220 INFO  [http-nio-9000-exec-2]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"name":"刘哥","password":"","signature":"一动可搬山，可倒海!!!","username":"admin"},"msg":"操作成功!"}
+2020-08-16 15:35:46.315 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:122 -请求地址 : /log/getByPage
+2020-08-16 15:35:46.319 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:123 -请求方式 : POST
+2020-08-16 15:35:46.321 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:126 -IP : 127.0.0.1
+2020-08-16 15:35:46.322 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:128 -方法 : com.lzy.blog.controller.LogController.getByPage
+2020-08-16 15:35:46.323 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.printRequestLog:130 -请求参数：[PageUtils(currentPage=1, pageSize=20, totalPage=0, totalCount=0, index=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-08-16 15:35:46.475 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAround:74 -耗时 : 160
+2020-08-16 15:35:46.477 INFO  [http-nio-9000-exec-3]com.lzy.blog.aspect.RequestAspect.doAfterReturning:89 -返回值：{"code":20000,"data":{"currentPage":1,"index":0,"list":[{"createdTime":"2020-07-01 15:50:45.0","logId":5,"logIp":"0:0:0:0:0:0:0:1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":2000,\"data\":{\"name\":\"刘哥\",\"password\":\"\",\"signature\":\"一动可搬山，可倒海\",\"username\":\"刘小少\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":25,"logUrl":"/admin/getLoginInfo"},{"createdTime":"2020-07-02 00:54:04.0","logId":6,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"7933145F4818150DEDC6D3C12C578219\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":181,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 00:54:28.0","logId":7,"logIp":"0:0:0:0:0:0:0:1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":2000,\"data\":{\"name\":\"刘哥\",\"password\":\"\",\"signature\":\"一动可搬山，可倒海\",\"username\":\"刘小少\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":7,"logUrl":"/admin/getLoginInfo"},{"createdTime":"2020-07-02 00:56:34.0","logId":8,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"7933145F4818150DEDC6D3C12C578219\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":17,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 00:59:40.0","logId":9,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"61762D7D9FD86197E62B37661ABD197D\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":161,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:07:05.0","logId":10,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"61762D7D9FD86197E62B37661ABD197D\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":13,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:10:42.0","logId":11,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'type_name' in 'class com.lzy.blog.pojo.Type'\n\tat com.lzy.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:45)\n\tat com.lzy.blog.controller.TypeController.save(TypeController.java:31)\n\tat com.lzy.blog.controller.TypeController$$FastClassBySpringCGLIB$$775f190c.invoke(<generated>)\n\tat com.lzy.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lzy.blog.controller.TypeController$$EnhancerBySpringCGLIB$$81a23d8b.save(<generated>)\nCaused by: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'type_name' in 'class com.lzy.blog.pojo.Type'\n","logMethod":"POST","logParams":"[Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null)]","logStatus":0,"logTime":0,"logUrl":"/type/save"},{"createdTime":"2020-07-02 01:14:43.0","logId":12,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"1CCEF2D4D4ED2CD805949CE5C776501A\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":194,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:15:06.0","logId":13,"logIp":"0:0:0:0:0:0:0:1","logMessage":"org.springframework.jdbc.BadSqlGrammarException: \n### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'\n### The error may involve com.lzy.blog.mapper.TypeMapper.insert-Inline\n### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'\n; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'\n\tat com.lzy.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:45)\n\tat com.lzy.blog.controller.TypeController.save(TypeController.java:31)\n\tat com.lzy.blog.controller.TypeController$$FastClassBySpringCGLIB$$775f190c.invoke(<generated>)\n\tat com.lzy.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lzy.blog.controller.TypeController$$EnhancerBySpringCGLIB$$38b682be.save(<generated>)\nCaused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'type_name' in 'field list'\n","logMethod":"POST","logParams":"[Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null)]","logStatus":0,"logTime":0,"logUrl":"/type/save"},{"createdTime":"2020-07-02 01:17:21.0","logId":14,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"E81613503EA0A8AAF58255FD817ED00C\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":203,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:17:40.0","logId":15,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Type(typeId=null, typeName=java, typeBlogCount=null, enable=null, deleted=null)]","logResult":"{\"code\":2000,\"msg\":\"添加成功\"}","logStatus":1,"logTime":113,"logUrl":"/type/save"},{"createdTime":"2020-07-02 01:19:26.0","logId":16,"logIp":"0:0:0:0:0:0:0:1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":2000,\"data\":[{\"enable\":1,\"typeBlogCount\":0,\"typeId\":1,\"typeName\":\"java\"}],\"msg\":\"操作成功!\"}","logStatus":1,"logTime":17,"logUrl":"/type/listBack"},{"createdTime":"2020-07-02 01:19:44.0","logId":17,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Type(typeId=null, typeName=linux, typeBlogCount=null, enable=null, deleted=null)]","logResult":"{\"code\":2000,\"msg\":\"添加成功\"}","logStatus":1,"logTime":87,"logUrl":"/type/save"},{"createdTime":"2020-07-02 01:19:47.0","logId":18,"logIp":"0:0:0:0:0:0:0:1","logMessage":"com.lzy.blog.exception.BlogException: 该分类已经存在！\n\tat com.lzy.blog.service.impl.TypeServiceImpl.save(TypeServiceImpl.java:42)\n\tat com.lzy.blog.controller.TypeController.save(TypeController.java:31)\n\tat com.lzy.blog.controller.TypeController$$FastClassBySpringCGLIB$$775f190c.invoke(<generated>)\n\tat com.lzy.blog.aspect.RequestAspect.doAround(RequestAspect.java:72)\n\tat com.lzy.blog.controller.TypeController$$EnhancerBySpringCGLIB$$f758cd40.save(<generated>)\n","logMethod":"POST","logParams":"[Type(typeId=null, typeName=linux, typeBlogCount=null, enable=null, deleted=null)]","logStatus":0,"logTime":0,"logUrl":"/type/save"},{"createdTime":"2020-07-02 01:19:57.0","logId":19,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Type(typeId=null, typeName=springboot, typeBlogCount=null, enable=null, deleted=null)]","logResult":"{\"code\":2000,\"msg\":\"添加成功\"}","logStatus":1,"logTime":74,"logUrl":"/type/save"},{"createdTime":"2020-07-02 01:20:04.0","logId":20,"logIp":"0:0:0:0:0:0:0:1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":2000,\"data\":[{\"enable\":1,\"typeBlogCount\":0,\"typeId\":1,\"typeName\":\"java\"},{\"enable\":1,\"typeBlogCount\":0,\"typeId\":2,\"typeName\":\"linux\"},{\"enable\":1,\"typeBlogCount\":0,\"typeId\":3,\"typeName\":\"springboot\"}],\"msg\":\"操作成功!\"}","logStatus":1,"logTime":14,"logUrl":"/type/listBack"},{"createdTime":"2020-07-02 01:21:08.0","logId":21,"logIp":"0:0:0:0:0:0:0:1","logMethod":"GET","logParams":"[]","logResult":"{\"code\":2000,\"data\":[{\"typeBlogCount\":0,\"typeId\":1,\"typeName\":\"java\"},{\"typeBlogCount\":0,\"typeId\":2,\"typeName\":\"linux\"},{\"typeBlogCount\":0,\"typeId\":3,\"typeName\":\"springboot\"}],\"msg\":\"操作成功!\"}","logStatus":1,"logTime":12,"logUrl":"/type/getList"},{"createdTime":"2020-07-02 01:27:14.0","logId":22,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"D7DB0C96F2F2B34B72AB9D39DEDD1EAF\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":196,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:31:48.0","logId":23,"logIp":"0:0:0:0:0:0:0:1","logMethod":"POST","logParams":"[Admin(id=null, name=null, header=null, signature=null, comment=null, username=刘小少, password=e10adc3949ba59abbe56e057f20f883e)]","logResult":"{\"code\":2000,\"data\":{\"token\":\"26643007EBF85D258CE763AED0DD68D8\"},\"msg\":\"操作成功!\"}","logStatus":1,"logTime":174,"logUrl":"/admin/login"},{"createdTime":"2020-07-02 01:36:16.0","logId":24,"logIp":"0:0:0:0:0:0:0:1","logMethod":"PUT","logParams":"[Type(typeId=3, typeName=前端, typeBlogCount=null, enable=null, deleted=null)]","logResult":"{\"code\":2000,\"msg\":\"更新成功\"}","logStatus":1,"logTime":147,"logUrl":"/type/update"}],"pageSize":20,"params":{},"sortMethod":"asc","totalCount":480,"totalPage":24},"msg":"操作成功!"}

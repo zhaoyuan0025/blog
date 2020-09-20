@@ -1,0 +1,13 @@
+2020-08-13 00:12:18.167 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-08-13 00:16:35.109 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-08-13 00:16:35.213 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-08-13 00:16:36.208 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-08-13 00:16:36.654 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-08-13 00:16:36.659 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 1550(Long), {"code":2000,"data":{"token":"8E3ED2FF4D689491F835785550D4854A"},"msg":"操作成功!"}(String), 127.0.0.1(String)
+2020-08-13 00:16:37.180 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-08-13 00:21:13.310 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==>  Preparing: select name,header, signature, username, password from bl_admin where username = ? 
+2020-08-13 00:21:13.312 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -==> Parameters: admin(String)
+2020-08-13 00:21:13.316 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.AdminMapper.getByUserName.debug:159 -<==      Total: 1
+2020-08-13 00:21:13.322 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-08-13 00:21:13.324 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=e10adc3949ba59abbe56e057f20f883e)](String), 1(Integer), null, POST(String), 19(Long), {"code":2000,"data":{"token":"8E3ED2FF4D689491F835785550D4854A"},"msg":"操作成功!"}(String), 127.0.0.1(String)
+2020-08-13 00:21:13.396 DEBUG [http-nio-9000-exec-2]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

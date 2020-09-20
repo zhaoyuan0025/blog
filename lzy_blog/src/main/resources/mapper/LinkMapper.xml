@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lzy.blog.mapper.LinkMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lzy.blog.pojo.Link">
+        <id column="link_id" property="linkId"/>
+        <result column="link_name" property="linkName"/>
+        <result column="link_url" property="linkUrl"/>
+        <result column="created_time" property="createdTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="version" property="version"/>
+        <result column="deleted" property="deleted"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+         link_id,
+         link_name,
+         link_url,
+         created_time,
+         update_time,
+         version,
+         deleted
+    </sql>
+
+    <!--添加-->
+    <insert id="save" parameterType="com.lzy.blog.pojo.Link">
+        insert into bl_link(link_name,link_url) values (
+            #{linkName},#{linkUrl}
+        )
+    </insert>
+
+    <!--更新-->
+    <update id="update" parameterType="com.lzy.blog.pojo.Link">
+        update bl_link set
+        version = version+1
+        <if test="linkName!=null and linkName !=''">
+            ,link_name=#{linkName}
+        </if>
+        <if test="linkUrl!=null and linkUrl !=''">
+            ,link_url = #{linkUrl}
+        </if>
+        where link_id = #{linkId}
+        and version = #{version}
+    </update>
+
+    <!--删除-->
+    <delete id="deleteById">
+        update bl_link set
+        deleted = 1
+        where link_id = #{value}
+    </delete>
+
+    <!--根据id查询-->
+    <select id="getById" resultMap="BaseResultMap">
+        select link_id,link_name,link_url,version
+        from bl_link
+        where link_id = #{value}
+        and deleted = 0
+    </select>
+
+    <!--查询所有-->
+    <select id="getAll" resultMap="BaseResultMap">
+        select
+            link_id,
+            link_name,
+            link_url,
+            created_time,
+            update_time
+         from bl_link
+         where deleted = 0
+    </select>
+
+</mapper>

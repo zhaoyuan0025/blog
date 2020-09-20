@@ -1,0 +1,9 @@
+2020-06-06 01:00:56.760 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-06-06 01:21:47.927 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-06-06 01:24:58.642 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-06-06 01:28:09.097 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-06-06 22:43:11.405 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-06-06 22:44:26.656 DEBUG [main]com.lzy.blog.LzyBlogApplication.logStarting:56 -Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-06-06 22:44:57.202 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip ) values ( ?,?,?,?,?,?, ?,? ) 
+2020-06-06 22:44:57.258 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -==> Parameters: /test/testException(String), [1](String), 1(Integer), null, GET(String), 57(Long), {"code":2000,"msg":"操作成功!"}(String), 0:0:0:0:0:0:0:1(String)
+2020-06-06 22:44:57.268 DEBUG [http-nio-9000-exec-1]com.lzy.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
