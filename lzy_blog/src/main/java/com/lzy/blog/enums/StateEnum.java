@@ -41,7 +41,6 @@ public enum  StateEnum {
      */
     ADMIN(0, "管理员"),
     USER(1, "普通用户");
-    ;
 
     private Integer code;
     private String msg;
