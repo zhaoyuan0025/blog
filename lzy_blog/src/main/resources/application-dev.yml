@@ -5,9 +5,9 @@ server:
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://127.0.0.1:3306/blog?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&useSSL=false
+      url: jdbc:mysql://47.93.125.194:3306/blog?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&useSSL=false
       username: root
-      password: 123456
+      password: liu123456
       driver-class-name: com.mysql.cj.jdbc.Driver
       initialSize: 5
       minIdle: 5
@@ -24,7 +24,7 @@ spring:
   #mongodb配置
   data:
     mongodb:
-      host: 39.106.88.87
+      host: 47.93.125.194
       database: blog
 #fasfdfs的配置
 fdfs:
